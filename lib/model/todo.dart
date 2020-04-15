@@ -4,5 +4,6 @@ class Todo {
   String title;
   String body;
   int completed;
-  Todo({this.title, this.body, this.completed});
+  String type = 'DEFAULT';
+  Todo({this.title, this.body, this.completed,this.type});
 }
